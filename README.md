@@ -30,7 +30,7 @@
 This project aims to analyze IPL match data from 2008-2022 and make predictions based on the analysis. It includes an analysis notebook (`Analysis.ipynb`) for exploring the data and a prediction notebook (`Prediction.ipynb`) for developing a prediction model. The web application for predictions is built using Flask, HTML, and CSS.
 
 ## Demo
-Provide a brief demo of how to use the web application for predictions.
+soon ...
 
 ## Deployed Link
 The web application is deployed on Render. You can access it [here](insert_deployed_link).
