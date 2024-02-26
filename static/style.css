@@ -64,3 +64,12 @@ input[type="number"] {
     border: 1px solid #dddddd;
     border-radius: 3px;
 }
+
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
