@@ -8,9 +8,8 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Contribution](#contribution)
-6. [Screenshots](#screenshots)
-7. [Demo](#demo)
-8. [Deployed Link](#deployed-link)
+6. [Demo](#demo)
+7. [Deployed Link](#deployed-link)
 
 ## Directory Structure
 
@@ -58,3 +57,6 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
 
 ## Contribution
 Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
+
+## Demo
+Provide a brief demo of how to use the web application for predictions.
