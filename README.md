@@ -80,4 +80,4 @@ Contributions are welcome! If you'd like to contribute to this project, feel fre
 
 
 ## License
-This project is licensed under the  License.
+This project is licensed under the  [EPL 2.0](https://github.com/neerajcodes888/IPL-Victory-Analysis-with-Prediction/blob/main/LICENSE)
