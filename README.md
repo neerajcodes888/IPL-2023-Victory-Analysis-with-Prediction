@@ -53,5 +53,6 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
    ```bash
    python app.py
    ```
-
+2. **Visit http://localhost:5000 in your web browser to access the web app.**
+   
 
