@@ -64,3 +64,6 @@ Provide a brief demo of how to use the web application for predictions.
 
 ## Deployed Link
 The web application is deployed on Render. You can access it here.
+
+## License
+This project is licensed under the MIT License.
