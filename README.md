@@ -3,14 +3,24 @@
 Welcome to the IPL Victory Analysis with Predictions repository! This project offers an in-depth analysis of IPL match data from 2008-2022 and provides predictions based on the analysis.
 
 ## Index of Contents
-1. [Directory Structure](#directory-structure)
-2. [Technology Stack](#technology-stack)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contribution](#contribution)
-6. [Demo](#demo)
-7. [Deployed Link](#deployed-link)
-8. [License](#license)
+1. [Introduction](#introduction)
+2. [Demo](#demo)
+3. [Deployed Link](#deployed-link)
+4. [Directory Structure](#directory-structure)
+5. [Technology Stack](#technology-stack)
+6. [Installation](#installation)
+7. [Usage](#usage)
+8. [Contribution](#contribution)
+9. [License](#license)
+
+## Introduction
+This project aims to analyze IPL match data from 2008-2022 and make predictions based on the analysis. It includes an analysis notebook (`Analysis.ipynb`) for exploring the data and a prediction notebook (`Prediction.ipynb`) for developing a prediction model. The web application for predictions is built using Flask, HTML, and CSS.
+
+## Demo
+Provide a brief demo of how to use the web application for predictions.
+
+## Deployed Link
+The web application is deployed on Render. You can access it [here](insert_deployed_link).
 
 ## Directory Structure
 
@@ -42,11 +52,7 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
    ```bash
    git clone https://github.com/your-username/IPL-Victory-Analysis-with-Predictions.git
    cd IPL-Victory-Analysis-with-Predictions
-   ```
- 1.**Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+
 
 ## Usage
 1. **Run the Flask application:**
