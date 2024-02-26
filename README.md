@@ -44,3 +44,6 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
    cd IPL-Victory-Analysis-with-Predictions
    ```
  1.**Install the required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
