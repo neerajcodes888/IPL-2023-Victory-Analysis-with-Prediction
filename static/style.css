@@ -29,3 +29,10 @@ form{
     display: flex;
     flex-direction: column;
 }
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
