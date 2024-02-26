@@ -36,3 +36,8 @@ form{
     align-items: center;
     margin-bottom: 10px;
 }
+
+.form-column {
+    flex-basis: 48%;
+    padding: 8px;
+}
