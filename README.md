@@ -42,3 +42,5 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
    ```bash
    git clone https://github.com/your-username/IPL-Victory-Analysis-with-Predictions.git
    cd IPL-Victory-Analysis-with-Predictions
+   ```
+ 1.**Install the required dependencies:**
