@@ -60,3 +60,6 @@ Contributions are welcome! If you'd like to contribute to this project, feel fre
 
 ## Demo
 Provide a brief demo of how to use the web application for predictions.
+
+## Deployed Link
+The web application is deployed on Render. You can access it here.
