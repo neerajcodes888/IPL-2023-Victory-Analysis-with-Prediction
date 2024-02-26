@@ -45,6 +45,5 @@ def predict():
                            probability1=int(prediction[0, 0] * 100),
                            probability2=int(prediction[0, 1] * 100))
 
-
 if __name__ == '__main__':
     app.run(debug=False,host='0.0.0.0')
