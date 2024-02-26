@@ -66,10 +66,10 @@ The web application is deployed on Render. You can access it [here](insert_deplo
 Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
 
 ## Demo
-Provide a brief demo of how to use the web application for predictions.
+soon
 
 ## Deployed Link
 The web application is deployed on Render. You can access it here.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the  License.
