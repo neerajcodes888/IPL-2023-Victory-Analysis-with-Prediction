@@ -1,6 +1,19 @@
-# 🏏 IPL Victory Analysis with Predictions
+# 🏏 **IPL  Winning Prediction 🏆 and Full Data Analysis**
 
-Welcome to the IPL Victory Analysis with Predictions repository! This project offers an in-depth analysis of IPL match data from 2008-2022 and provides predictions based on the analysis.
+
+<img src = 'https://www.insidesport.in/wp-content/uploads/2022/01/eng-banner-2.jpg'>
+
+
+
+## **Contents in this Project**
+
+1. Data Loading and Summary Checking
+2. Data Cleaning
+3. Feature Extraction
+4. EDA and Data Visualisation
+5. Best Player Clusters since 2008 based on Performance
+6. IPL Match Winning Prediction 🏆
+
 
 ## Index of Contents
 1. [Introduction](#introduction)
@@ -50,7 +63,7 @@ The web application is deployed on Render. You can access it [here](insert_deplo
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/IPL-Victory-Analysis-with-Predictions.git
+   git clone https://github.com/neerajcodes888/IPL-Victory-Analysis-with-Predictions.git
    cd IPL-Victory-Analysis-with-Predictions
 
 
@@ -65,11 +78,6 @@ The web application is deployed on Render. You can access it [here](insert_deplo
 ## Contribution
 Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
 
-## Demo
-soon
-
-## Deployed Link
-The web application is deployed on Render. You can access it here.
 
 ## License
 This project is licensed under the  License.
