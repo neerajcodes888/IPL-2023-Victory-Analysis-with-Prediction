@@ -56,3 +56,5 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
 2. **Visit http://localhost:5000 in your web browser to access the web app.**
    
 
+## Contribution
+Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
