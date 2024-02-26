@@ -47,3 +47,5 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
    ```bash
    pip install -r requirements.txt
    ```
+
+## Usage
