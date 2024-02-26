@@ -1,1 +1,1 @@
-# IPL-Wining-Analysis-with-Predictions
+# IPL-Victory-Analysis-with-Predictions
