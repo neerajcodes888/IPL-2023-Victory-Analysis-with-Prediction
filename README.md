@@ -49,3 +49,9 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
    ```
 
 ## Usage
+1. **Run the Flask application:**
+   ```bash
+   python app.py
+   ```
+
+
