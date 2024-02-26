@@ -20,5 +20,7 @@ body{
 }
 
 h1{
-    
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
 }
