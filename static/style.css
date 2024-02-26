@@ -55,3 +55,12 @@ label {
     color: #555555;
     font-weight: bold;
 }
+
+select,
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
