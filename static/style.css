@@ -41,3 +41,10 @@ form{
     flex-basis: 48%;
     padding: 8px;
 }
+
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
