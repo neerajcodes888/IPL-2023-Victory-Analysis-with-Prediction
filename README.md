@@ -17,17 +17,25 @@
 
 ## Index of Contents
 1. [Introduction](#introduction)
-2. [Demo](#demo)
-3. [Deployed Link](#deployed-link)
-4. [Directory Structure](#directory-structure)
-5. [Technology Stack](#technology-stack)
-6. [Installation](#installation)
-7. [Usage](#usage)
-8. [Contribution](#contribution)
-9. [License](#license)
+2. [Features](#features)
+3. [Demo](#demo)
+4. [Deployed Link](#deployed-link)
+5. [Directory Structure](#directory-structure)
+6. [Technology Stack](#technology-stack)
+7. [Installation](#installation)
+8. [Usage](#usage)
+9. [Contribution](#contribution)
+10. [License](#license)
 
 ## Introduction
 This project aims to analyze IPL match data from 2008-2022 and make predictions based on the analysis. It includes an analysis notebook (`Analysis.ipynb`) for exploring the data and a prediction notebook (`Prediction.ipynb`) for developing a prediction model. The web application for predictions is built using Flask, HTML, and CSS.
+
+## Features
+- Analyze IPL match data from 2008 to 2022.
+- Develop and train prediction models based on historical data.
+- Deploy a Flask-based web application for interactive predictions.
+- Gain insights into team performance, player statistics, and match outcomes.
+- Make predictions on upcoming IPL matches.
 
 ## Demo
 soon ...
