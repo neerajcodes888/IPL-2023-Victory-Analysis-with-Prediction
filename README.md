@@ -10,6 +10,7 @@ Welcome to the IPL Victory Analysis with Predictions repository! This project of
 5. [Contribution](#contribution)
 6. [Demo](#demo)
 7. [Deployed Link](#deployed-link)
+8. [License](#license)
 
 ## Directory Structure
 
