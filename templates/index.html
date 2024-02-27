@@ -5,119 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPL Victory Prediction</title>
-    <style>
-                body{
+   <style>
+    body{
     
-            background-image: url('https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1665723752/1665723750.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        
-        .container{
-            width: 600px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(5px);
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        
-        }
-        
-        h1{
-            text-align: center;
-            color: #333333;
-            margin-bottom: 20px;
-        }
-        
-        form{
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .form-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        
-        .form-column {
-            flex-basis: 48%;
-            padding: 8px;
-        }
-        
-        
-        hr {
-            border: none;
-            border-top: 1px solid #000000;
-            margin: 20px 0;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #555555;
-            font-weight: bold;
-        }
-        
-        select,
-        input[type="text"],
-        input[type="number"] {
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #dddddd;
-            border-radius: 3px;
-        }
-        
-        input[type="submit"] {
-            padding: 8px 15px;
-            background-color: #4CAF50;
-            color: #ffffff;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-        
-        
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-        
-        
-        .progress-bar {
-            width: 200px;
-            height: 20px;
-            background-color: #ccc;
-            border-radius: 10px;
-            display: inline-block;
-        }
-        
-        .progress {
-            height: 100%;
-            background-color: #4CAF50;
-            border-radius: 10px;
-            text-align: center;
-            color: #fff;
-        }
-        
-        .team {
-            margin-top: 30px;
-        }
-        
-        .container_res {
-            text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(5px);
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+        background-image: url('https://www.insidesport.in/wp-content/uploads/2022/01/eng-banner-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height:100vh;
+    }
+    
+    .container{
+        width: 600px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    h1{
+        text-align: center;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .form-column {
+        flex-basis: 48%;
+        padding: 8px;
+    }
+    
+    
+    hr {
+        border: none;
+        border-top: 1px solid #000000;
+        margin: 20px 0;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555555;
+        font-weight: bold;
+    }
+    
+    select,
+    input[type="text"],
+    input[type="number"] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+    }
+    
+    input[type="submit"] {
+        padding: 8px 15px;
+        background-color: #4CAF50;
+        color: #ffffff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    
+    .progress-bar {
+        width: 200px;
+        height: 20px;
+        background-color: #ccc;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    
+    .progress {
+        height: 100%;
+        background-color: #4CAF50;
+        border-radius: 10px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .team {
+        margin-top: 30px;
+    }
+    
+    .container_res {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+   </style>
 </head>
 
 <body>
@@ -196,25 +196,25 @@
             <div class="form-row">
                 <div class="form-column">
                     <label for="runs_left">Runs Left:</label>
-                    <input type="number" name="runs_left">
+                    <input type="number" name="runs_left" min=0 max=300>
                 </div>
                 <div class="form-column">
                     <label for="balls_left">Balls Left:</label>
-                    <input type="number" name="balls_left">
+                    <input type="number" name="balls_left" min=0 max=120>
                 </div>
                 <div class="form-column">
                     <label for="wickets_left">Wickets Left:</label>
-                    <input type="number" name="wickets_left">
+                    <input type="number" name="wickets_left" min=0 max=10>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-column">
                     <label for="current_run_rate">Current Run Rate:</label>
-                    <input type="number" step="0.01" name="current_run_rate">
+                    <input type="number" step="0.01" name="current_run_rate" min=0>
                 </div>
                 <div class="form-column">
                     <label for="required_run_rate">Required Run Rate:</label>
-                    <input type="number" step="0.01" name="required_run_rate">
+                    <input type="number" step="0.01" name="required_run_rate" min=0>
                 </div>
                 <div class="form-column">
                     <label for="target">Target:</label>
@@ -225,6 +225,9 @@
         </form>
 
     </div>
+
+
+
 </body>
 
 </html>
