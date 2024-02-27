@@ -41,7 +41,7 @@ This project aims to analyze IPL match data from 2008-2022 and make predictions 
 soon ...
 
 ## Deployed Link
-The web application is deployed on Render. You can access it [here](insert_deployed_link).
+The web application is deployed on Render. You can access it [here](https://ipl-victory-analysis-with-prediction.onrender.com/).
 
 ## Directory Structure
 
