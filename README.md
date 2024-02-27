@@ -38,7 +38,9 @@ This project aims to analyze IPL match data from 2008-2022 and make predictions 
 - Make predictions on upcoming IPL matches.
 
 ## Demo
-soon ...
+
+![IPL_Predictions](https://github.com/neerajcodes888/IPL-Victory-Analysis-with-Prediction/assets/98253646/6cf0e030-78cd-417a-9f54-7b579033d20f)
+
 
 ## Deployed Link
 The web application is deployed on Render. You can access it [here](https://ipl-victory-analysis-with-prediction.onrender.com/).
