@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <style>
-
-        body{
+        
+                body{
     
-            background-image: url('https://www.insidesport.in/wp-content/uploads/2022/01/eng-banner-2.jpg');
+            background-image: url('https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1665723752/1665723750.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             display: flex;
             justify-content: center;
             align-items: center;
-            height:50vh;
+            height: 100vh;
         }
         
         .container{
@@ -110,14 +109,13 @@
             text-align: center;
             margin-top: 50px;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(5px);
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
-
 <body>
     <div class="container_res">
         <h1>Match Winning Prediction</h1>
@@ -125,15 +123,14 @@
             <h2>{{ team1 }}</h2>
             <div class="progress-bar">
                 <div class="progress" style="width: {{ probability1 }}%">{{ probability1 }}%</div>
-            </div>
+            </div>            
         </div>
         <div class="team">
             <h2>{{ team2 }}</h2>
             <div class="progress-bar">
-                <div class="progress" style="width: {{ probability2 }}%">{{ probability2 }}%</div>
+                <div class="progress" style="width: {{ probability2 }}%">{{ probability2 }}</div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
