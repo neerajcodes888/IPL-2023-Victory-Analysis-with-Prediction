@@ -11,7 +11,15 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+def calculate_crr(target_runs, runs_left, balls_left):
+    total_runs = target_runs - runs_left
+    total_overs = balls_left / 6
+    return total_runs / total_overs
 
+def calculate_rrr(target_runs, runs_left, balls_left):
+    remaining_runs = target_runs - runs_left
+    remaining_overs = balls_left / 6
+    return remaining_runs / remaining_overs
 
 
 @app.route('/predict', methods=['GET','POST'])
@@ -27,6 +35,9 @@ def predict():
         current_run_rate = float(request.form.get('current_run_rate'))
         required_run_rate = float(request.form.get('required_run_rate'))
         target = float(request.form.get('target'))
+        
+        current_run_rate = calculate_crr(target,runs_left,balls_left)
+        required_run_rate = calculate_rrr(target, runs_left,balls_left)
 
         # Create a DataFrame with the input values
         data = [[batting_team, bowling_team, city, runs_left, balls_left, wickets_left,
