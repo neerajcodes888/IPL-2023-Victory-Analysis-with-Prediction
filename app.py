@@ -16,16 +16,17 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    # Get the input values from the form
-    batting_team = request.form.get('batting_team')
-    bowling_team = request.form.get('bowling_team')
-    city = request.form.get('city')
-    runs_left = float(request.form.get('runs_left'))
-    balls_left = float(request.form.get('balls_left'))
-    wickets_left = float(request.form.get('wickets_left'))
-    current_run_rate = float(request.form.get('current_run_rate'))
-    required_run_rate = float(request.form.get('required_run_rate'))
-    target = float(request.form.get('target'))
+    if request.method == 'POST':
+        
+        batting_team = request.form.get('batting_team')
+        bowling_team = request.form.get('bowling_team')
+        city = request.form.get('city')
+        runs_left = float(request.form.get('runs_left'))
+        balls_left = float(request.form.get('balls_left'))
+        wickets_left = float(request.form.get('wickets_left'))
+        current_run_rate = float(request.form.get('current_run_rate'))
+        required_run_rate = float(request.form.get('required_run_rate'))
+        target = float(request.form.get('target'))
 
     # Create a DataFrame with the input values
     data = [[batting_team, bowling_team, city, runs_left, balls_left, wickets_left,
@@ -45,6 +46,8 @@ def predict():
                            team2=team2,
                            probability1=int(prediction[0, 0] * 100),
                            probability2=int(prediction[0, 1] * 100))
+ 
+
 
 
 
