@@ -79,20 +79,23 @@
             <a class="btn btn-primary" href="./" role="button">Home</a><br><br>
 
             <div class="container_res custom-card">
-                <h1>Match Winning Prediction</h1>
-                <div class="team">
-                    <h2>{{ team1 }}</h2>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: {{ probability1 }} %">{{ probability1 }}%</div>
+                <h1 class="text-xl font-bold mb-4">Match Winning Prediction</h1>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="team">
+                        <h2 class="text-lg font-semibold mb-2">{{ team1 }}</h2>
+                        <div class="progress-bar bg-gray-300 rounded-lg overflow-hidden">
+                            <div class="progress bg-green-500 text-white font-semibold text-center py-1" style="width: {{ probability1 }}%;">{{ probability1 }}%</div>
+                        </div>
                     </div>
-                </div>
-                <div class="team">
-                    <h2>{{ team2 }}</h2>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: {{ probability2 }}%">{{ probability2 }}%</div>
+                    <div class="team">
+                        <h2 class="text-lg font-semibold mb-2">{{ team2 }}</h2>
+                        <div class="progress-bar bg-gray-300 rounded-lg overflow-hidden">
+                            <div class="progress bg-green-500 text-white font-semibold text-center py-1" style="width: {{ probability2 }}%;">{{ probability2 }}%</div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
             <br><br>
             <div class="card custom-card p-5">
                 <div class="card-body">
