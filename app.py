@@ -40,7 +40,7 @@ def predict():
     # Make the prediction using the loaded model
     prediction = model.predict_proba(input_df)
 
-    return render_template('result.html',
+    return render_template('prediction.html',
                            team1=team1,
                            team2=team2,
                            probability1=int(prediction[0, 0] * 100),
