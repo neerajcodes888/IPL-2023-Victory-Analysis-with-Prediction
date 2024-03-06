@@ -32,8 +32,6 @@ def predict():
         runs_left = float(request.form.get('runs_left'))
         balls_left = float(request.form.get('balls_left'))
         wickets_left = float(request.form.get('wickets_left'))
-        current_run_rate = float(request.form.get('current_run_rate'))
-        required_run_rate = float(request.form.get('required_run_rate'))
         target = float(request.form.get('target'))
         
         current_run_rate = calculate_crr(target,runs_left,balls_left)
