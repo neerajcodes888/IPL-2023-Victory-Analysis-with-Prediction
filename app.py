@@ -28,27 +28,28 @@ def predict():
         required_run_rate = float(request.form.get('required_run_rate'))
         target = float(request.form.get('target'))
 
-    # Create a DataFrame with the input values
-    data = [[batting_team, bowling_team, city, runs_left, balls_left, wickets_left,
+        # Create a DataFrame with the input values
+        data = [[batting_team, bowling_team, city, runs_left, balls_left, wickets_left,
              current_run_rate, required_run_rate, target]]
-    columns = ['BattingTeam', 'BowlingTeam', 'City', 'runs_left', 'balls_left',
+        columns = ['BattingTeam', 'BowlingTeam', 'City', 'runs_left', 'balls_left',
                'wickets_left', 'current_run_rate', 'required_run_rate', 'target']
-    input_df = pd.DataFrame(data, columns=columns)
+        input_df = pd.DataFrame(data, columns=columns)
 
-    team1 = batting_team
-    team2 = bowling_team
+        team1 = batting_team
+        team2 = bowling_team
 
-    # Make the prediction using the loaded model
-    prediction = model.predict_proba(input_df)
+        # Make the prediction using the loaded model
+        prediction = model.predict_proba(input_df)
 
-    return render_template('prediction.html',
+        return render_template('prediction.html',
                            team1=team1,
                            team2=team2,
                            probability1=int(prediction[0, 0] * 100),
                            probability2=int(prediction[0, 1] * 100))
  
 
-
+    else:
+        return render_template("prediction.html") 
 
 
 if __name__ == '__main__':
