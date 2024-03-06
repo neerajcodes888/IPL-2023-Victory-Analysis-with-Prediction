@@ -20,41 +20,29 @@
         }
 
         .custom-card {
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            animation: zoomOut 0.5s ease;
-        }
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
 
-        @keyframes zoomOut {
-            from {
-                transform: scale(1.1);
-                opacity: 0;
-            }
-            to {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
+.team {
+    padding: 15px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
 
-        .progress-bar {
-            width: 200px;
-            height: 20px;
-            background-color: #ccc;
-            border-radius: 10px;
-            display: inline-block;
-        }
+.progress-bar {
+    height: 30px;
+    border-radius: 15px;
+}
 
-        .progress {
-            height: 100%;
-            background-color: #4CAF50;
-            border-radius: 10px;
-            text-align: center;
-            color: #fff;
-        }
+.progress {
+    height: 100%;
+    border-radius: 15px;
+}
 
-        .team {
-            margin-top: 30px;
-        }
 
         .container_res {
             text-align: center;
