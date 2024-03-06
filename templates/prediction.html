@@ -41,6 +41,22 @@
             </div>
             <a class="btn btn-primary" href="./" role="button">Home</a><br><br>
 
+            <div class="container_res">
+                <h1>Match Winning Prediction</h1>
+                <div class="team">
+                    <h2>{{ team1 }}</h2>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: {{ probability1 }} %">{{ probability1 }}%</div>
+                    </div>
+                </div>
+                <div class="team">
+                    <h2>{{ team2 }}</h2>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: {{ probability2 }}%">{{ probability2 }}%</div>
+                    </div>
+                </div>
+            </div>
+
             <div class="card custom-card p-5">
                 <div class="card-body">
                     <form action="/predict" method="post">
