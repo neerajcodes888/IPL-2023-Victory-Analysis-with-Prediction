@@ -67,24 +67,34 @@
             </div>
             <a class="btn btn-primary" href="./" role="button">Home</a><br><br>
 
-            <div class="container_res custom-card">
-                <h1 class="text-xl font-bold mb-4">Match Winning Prediction</h1>
-                <div class="grid grid-cols-2 gap-8">
-                    <div class="team">
-                        <h2 class="text-lg font-semibold mb-2">{{ team1 }}</h2>
-                        <div class="progress-bar bg-gray-300 rounded-lg overflow-hidden">
-                            <div class="progress bg-green-500 text-white font-semibold text-center py-1" style="width: {{ probability1 }}%;">{{ probability1 }}%</div>
-                        </div>
-                    </div>
-                    <div class="team">
-                        <h2 class="text-lg font-semibold mb-2">{{ team2 }}</h2>
-                        <div class="progress-bar bg-gray-300 rounded-lg overflow-hidden">
-                            <div class="progress bg-green-500 text-white font-semibold text-center py-1" style="width: {{ probability2 }}%;">{{ probability2 }}%</div>
-                        </div>
-                    </div>
-                </div>
+          <!-- Popup for Predicted Text -->
+<div id="predictionPopup" class="prediction-popup">
+    <div class="prediction-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Prediction Result</h2>
+        <p id="predictionText"></p>
+    </div>
+</div>
+
+<div class="container_res custom-card">
+    <h1 class="text-xl font-bold mb-4">Match Winning Prediction</h1>
+    <div class="grid grid-cols-2 gap-8">
+        <div class="team">
+            <h2 class="text-lg font-semibold mb-2">{{ team1 }}</h2>
+            <div class="progress-bar bg-gray-300 rounded-lg overflow-hidden">
+                <div class="progress bg-green-500 text-white font-semibold text-center py-1" style="width: {{ probability1 }}%;" onclick="openPopup('{{ team1 }} has a {{ probability1 }}% chance of winning.')">{{ probability1 }}%</div>
             </div>
-            
+        </div>
+        <div class="team">
+            <h2 class="text-lg font-semibold mb-2">{{ team2 }}</h2>
+            <div class="progress-bar bg-gray-300 rounded-lg overflow-hidden">
+                <div class="progress bg-green-500 text-white font-semibold text-center py-1" style="width: {{ probability2 }}%;" onclick="openPopup('{{ team2 }} has a {{ probability2 }}% chance of winning.')">{{ probability2 }}%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
             <br><br>
             <div class="card custom-card p-5">
                 <div class="card-body">
