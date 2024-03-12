@@ -111,6 +111,17 @@
 </head>
 
 <body>
+    <script>
+        function openPopup(prediction) {
+            document.getElementById("predictionText").innerHTML = prediction;
+            document.getElementById("predictionPopup").style.display = "block";
+        }
+        
+        function closePopup() {
+            document.getElementById("predictionPopup").style.display = "none";
+        }
+        
+    </script>
 
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
